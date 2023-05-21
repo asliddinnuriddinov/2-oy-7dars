@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+.box-wrapper{
+    display: flex;
+    height: 400px;
+    max-width: 350px;
+    background-color: orange;
+    /* padding: 20px; */
+   /* justify-content: space-around; */
+
+   /* elementlar joy;ari ochish, justify-content */
+   /* space-between */
+   /* space-around */
+   /* space-evenly */
+
+   /* justify-content: center;
+   align-items: center;
+   flex-direction: column-reverse; */
+   
+    flex-wrap: wrap;
+
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: dodgerblue;
+}
+img{
+    height: 600px;
+    width: 250px;
+    object-fit: contain;
+}
+h1{
+    font-family: ;
+}
